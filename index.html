@@ -1,0 +1,112 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Music</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">MY MUSIC</div>
+
+        <nav class="navigation">
+            <a href="#" class="active">Artists</a>
+            <a href="albums.html">Albums</a>
+            <a href="#">Other music</a>
+        </nav>
+
+        <button class="search-button">⌕</button>
+    </header>
+
+
+    <main class="main">
+
+        <section class="hero">
+
+            <h1>Favorite<br><span>artists</span></h1>
+
+        </section>
+
+
+        <section class="artists-section">
+
+            <div class="section-header">
+                <h2>Artists</h2>
+                <span class="artists-count">03 artists</span>
+            </div>
+
+
+            <div class="artists-grid">
+
+
+                <!-- THE WEEKND -->
+
+                <div class="artist-card" onclick="openArtist('The Weeknd')">
+
+                    <div class="artist-image">
+                        <img src="images/the-weeknd.png" alt="The Weeknd">
+                    </div>
+
+                    <div class="artist-info">
+                        <h3>The Weeknd</h3>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+
+
+                <!-- CHARLI XCX -->
+
+                <div class="artist-card" onclick="openArtist('Charli XCX')">
+
+                    <div class="artist-image">
+                        <img src="images/charli-xcx.png" alt="Charli XCX">
+                    </div>
+
+                    <div class="artist-info">
+                        <h3>Charli XCX</h3>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+
+
+                <!-- KIM PETRAS -->
+
+                <div class="artist-card" onclick="openArtist('Kim Petras')">
+
+                    <div class="artist-image">
+                        <img src="images/kim-petras.png" alt="Kim Petras">
+                    </div>
+
+                    <div class="artist-info">
+                        <h3>Kim Petras</h3>
+                        <p>Artist</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>MY MUSIC © 2026</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
