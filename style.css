@@ -1,4 +1,3 @@
-```css
 * {
     margin: 0;
     padding: 0;
@@ -393,8 +392,7 @@ body {
     }
 
 }
-```
-```css
+
 /* ========================================
    ARTIST PAGE
 ======================================== */
@@ -938,7 +936,7 @@ body {
 
 .album-card {
     width: 220px;
-    padding: 8px 12px 0px;
+    padding: 8px 12px 3px;
 
     box-sizing: border-box;
 
@@ -971,8 +969,7 @@ body {
 }
 
 .album-card .artist-info {
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 7px;
     padding-bottom: 0;
     height: auto;
 }

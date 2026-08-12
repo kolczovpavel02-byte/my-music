@@ -1,49 +1,3 @@
-const artists = {
-
-    "The Weeknd": {
-        name: "The Weeknd",
-        image: "images/the-weeknd.png",
-
-        songs: [
-            {
-                title: "After Hours",
-                album: "After Hours",
-                duration: "6:01",
-                audio: "music/after-hours.mp3",
-                cover: "images/after-hours.jpg"
-            },
-            {
-                title: "Blinding Lights",
-                album: "After Hours",
-                duration: "3:21",
-                audio: "music/blinding-lights.mp3",
-                cover: "images/after-hours.jpg"
-            },
-            {
-                title: "Heartless",
-                album: "After Hours",
-                duration: "3:21",
-                audio: "music/Heartless.mp3",
-                cover: "images/after-hours.jpg"
-            }
-        ]
-    },
-
-    "Charli XCX": {
-        name: "Charli XCX",
-        image: "images/charli-xcx.png",
-        songs: []
-    },
-
-    "Kim Petras": {
-        name: "Kim Petras",
-        image: "images/kim-petras.png",
-        songs: []
-    }
-
-};
-
-
 let currentSong = null;
 let currentSongIndex = -1;
 let currentArtist = null;
@@ -1130,3 +1084,4 @@ if (repeatButton) {
     );
 
 }
+
